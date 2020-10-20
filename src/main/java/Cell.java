@@ -3,9 +3,10 @@ public class Cell {
     boolean ALIVE = true;
     boolean DEAD = false;
 
-    public Cell(){
+    public Cell() {
 
     }
+
     public Cell(int x, int y) {
 
 
@@ -28,36 +29,10 @@ public class Cell {
         return ALIVE;
     }
 
-    public int neighboursCount(int[][] board, int x, int y) {
+    public int[][] neighboursCount(int[][] board, int cellx, int celly ) {
+        NeighboursCounter neighboursCounter = new NeighboursCounter();
 
-        int neighboursCount = 0;
-
-        if (board[x + 1][y] == 1) ;
-        neighboursCount++;
-
-        if (board[x - 1][y] == 1) ;
-        neighboursCount++;
-
-        if (board[x][y + 1] == 1) ;
-        neighboursCount++;
-
-        if (board[x][y - 1] == 1) ;
-        neighboursCount++;
-
-        if (board[x + 1][y + 1] == 1) ;
-        neighboursCount++;
-
-        if (board[x + 1][y - 1] == 1) ;
-        neighboursCount++;
-
-        if (board[x - 1][y + 1] == 1) ;
-        neighboursCount++;
-
-        if (board[x - 1][y - 1] == 1) ;
-        neighboursCount++;
-
-
-        return neighboursCount;
+        return neighboursCounter.getNeighboursBoard();
 
     }
 }

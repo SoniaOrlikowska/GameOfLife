@@ -27,8 +27,8 @@ public class PaintBoard extends Canvas {
         int[][] gameBoard = initialStateBoard;
         Cell cell = new Cell();
 
-        for (int i = 0; i < initialStateBoard.length; i++) {
-            for (int j = 0; j < initialStateBoard.length; j++) {
+        for (int i = 1; i < initialStateBoard.length + 2; i++) {
+            for (int j = 1; j < initialStateBoard.length + 2; j++) {
 
                 if (gameBoard[i][j] == 1) g.fillRect(i, j, 10, 10);
 

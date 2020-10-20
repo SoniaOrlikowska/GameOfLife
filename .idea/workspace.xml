@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75f56dce-6cac-4e4a-a2e4-09d39f699aad" name="Default Changelist" comment="" />
+    <list default="true" id="75f56dce-6cac-4e4a-a2e4-09d39f699aad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InitialState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InitialState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PaintBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PaintBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InitialState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InitialState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/GameOfLife.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PaintBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PaintBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rules.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rules.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j3I0zAPwqZlodm2zgorkMoswb1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,11 +38,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
-  <component name="RunManager" selected="Application.PaintBoard">
+  <component name="RunManager" selected="Application.NeighboursCounter">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GameOfLife" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeighboursCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NeighboursCounter" />
       <module name="GameOfLife" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -39,8 +64,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayGame" />
+      <module name="GameOfLife" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NeighboursCounter" />
+        <item itemvalue="Application.PlayGame" />
         <item itemvalue="Application.PaintBoard" />
         <item itemvalue="Application.Main" />
       </list>
@@ -60,29 +94,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="172" key="#com.intellij.ide.util.MemberChooser" timestamp="1603046471454">
-      <screen x="0" y="23" width="1440" height="852" />
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1603223118523">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603223118523" />
     <state x="533" y="172" key="#com.intellij.ide.util.MemberChooser/0.23.1440.852@0.23.1440.852" timestamp="1603046471454" />
     <state x="230" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603041856706">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
     <state x="230" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.852@0.23.1440.852" timestamp="1603041856706" />
-    <state width="1398" height="159" key="GridCell.Tab.0.bottom" timestamp="1603051161396">
-      <screen x="0" y="23" width="1440" height="852" />
+    <state width="1396" height="712" key="GridCell.Tab.0.bottom" timestamp="1603222825841">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1396" height="712" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603222825841" />
     <state width="1398" height="159" key="GridCell.Tab.0.bottom/0.23.1440.852@0.23.1440.852" timestamp="1603051161396" />
-    <state width="1398" height="159" key="GridCell.Tab.0.center" timestamp="1603051161395">
-      <screen x="0" y="23" width="1440" height="852" />
+    <state width="1396" height="712" key="GridCell.Tab.0.center" timestamp="1603222825839">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1396" height="712" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603222825839" />
     <state width="1398" height="159" key="GridCell.Tab.0.center/0.23.1440.852@0.23.1440.852" timestamp="1603051161395" />
-    <state width="1398" height="159" key="GridCell.Tab.0.left" timestamp="1603051161395">
-      <screen x="0" y="23" width="1440" height="852" />
+    <state width="1396" height="712" key="GridCell.Tab.0.left" timestamp="1603222825837">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1396" height="712" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603222825837" />
     <state width="1398" height="159" key="GridCell.Tab.0.left/0.23.1440.852@0.23.1440.852" timestamp="1603051161395" />
-    <state width="1398" height="159" key="GridCell.Tab.0.right" timestamp="1603051161396">
-      <screen x="0" y="23" width="1440" height="852" />
+    <state width="1396" height="712" key="GridCell.Tab.0.right" timestamp="1603222825840">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1396" height="712" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603222825840" />
     <state width="1398" height="159" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1603051161396" />
     <state x="308" y="191" key="IDE.errors.dialog" timestamp="1603026918556">
       <screen x="0" y="23" width="1440" height="852" />
@@ -92,9 +131,10 @@
       <screen x="0" y="23" width="1440" height="852" />
     </state>
     <state x="258" y="111" key="Maven.ArtifactSearchDialog/0.23.1440.852@0.23.1440.852" timestamp="1603027301709" />
-    <state x="229" y="88" key="SettingsEditor" timestamp="1603049774762">
-      <screen x="0" y="23" width="1440" height="852" />
+    <state x="229" y="69" key="SettingsEditor" timestamp="1603216979472">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="229" y="69" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603216979472" />
     <state x="229" y="88" key="SettingsEditor/0.23.1440.852@0.23.1440.852" timestamp="1603049774762" />
     <state x="482" y="72" key="refactoring.ChangeSignatureDialog" timestamp="1603045843758">
       <screen x="0" y="23" width="1440" height="852" />

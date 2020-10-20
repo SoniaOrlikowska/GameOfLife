@@ -20,7 +20,7 @@ public class Rules {
 
         if (cell.isALIVE(cellValue) && (cell.neighboursCount(board, x, y) == 2 || cell.neighboursCount(board, x, y) == 3)) {
             return cell.ALIVE;
-        } else return cell.ALIVE;
+        } else return cell.DEAD;
     }
 
     //Any live cell with more than three live neighbours dies, as if by overpopulation.
